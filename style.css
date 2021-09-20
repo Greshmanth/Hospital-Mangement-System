@@ -1,0 +1,36 @@
+body {
+  background-image: url("Image.jpeg");
+  background-size: cover;
+}
+form {
+  width: 200px;
+  position: relative;
+  left: 15%;
+  bottom: 25%;
+  color: skyblue;
+  padding: 50px;
+  margin: 40px;
+}
+.Forgot {
+  width: fit-content;
+  text-align: center;
+}
+.col {
+  border: solid 1px black;
+  height: 172px;
+}
+.box > div {
+  border: solid 3px;
+  border-radius: 2px;
+  width: 1415px;
+  height: 84px;
+  padding: 40px;
+}
+.Hospital {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .body {
+    width: 200px;
+  }
+}
